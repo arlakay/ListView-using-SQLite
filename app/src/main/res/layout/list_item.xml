@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dip"
+    android:scaleType="centerCrop" >
+
+	<ImageView android:id="@+id/picOfRestorant"
+	    android:layout_width="fill_parent"
+    	android:layout_height="200dip"
+    	android:scaleType="centerCrop"
+    	android:contentDescription="@string/action_settings"/>
+	<ImageView android:layout_width="fill_parent"
+    	android:layout_height="200dip"
+    	android:background="@drawable/transparent_background"
+    	android:contentDescription="@string/action_settings"/>
+	<TextView android:id="@+id/txtNameOfRestorant"
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:textColor="@color/myPrimaryColor"
+    	android:textSize="@dimen/activity_vertical_margin"
+    	android:textAllCaps="true"
+    	android:paddingLeft="10dip"
+    	android:paddingBottom="30dip"
+        android:layout_alignParentBottom="true"/>
+	<TextView android:id="@+id/txtAddressOfRestorant"
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:textColor="@color/myPrimaryColor"
+    	android:textSize="@dimen/smalll_text"
+    	android:paddingLeft="10dip"
+    	android:paddingBottom="13dip"
+        android:layout_alignParentBottom="true"/>
+    <TextView android:id="@+id/txtPicOfRestorant"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+	<TextView android:id="@+id/txtDetailOfRestorant"
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:visibility="gone"/>
+	<TextView android:id="@+id/txtIdOfRestorant"
+	    android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:visibility="gone"/>
+
+</RelativeLayout>  
